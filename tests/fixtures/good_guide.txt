@@ -1,0 +1,58 @@
+DISCUSSION GUIDE: Mobile Banking App Experience
+Session Length: 60 minutes
+Conducted by: UX Research Team
+Date: 2026
+
+---
+
+INTRODUCTION (5 min)
+
+Thank you for joining us today. This session is completely voluntary, and you can withdraw at any time
+without any obligation. We'd like to record this session for note-taking purposes — is that okay with
+you? Everything you share will remain confidential and used only for research purposes.
+
+---
+
+WARM-UP (10 min)
+
+1. To start, could you tell me a bit about yourself and how you generally use your smartphone day-to-day?
+   - Probe: What kinds of apps tend to be most useful for you?
+   - Probe: How long have you been doing things digitally that you used to do in person?
+
+2. How long have you been using mobile banking in some form?
+   - Probe: What led you to start using it?
+
+---
+
+CORE (35 min)
+
+3. Walk me through the last time you opened your mobile banking app. What were you doing?
+   - Probe: What prompted you to open it at that particular moment?
+   - Probe: What were you hoping to accomplish?
+
+4. What does a really successful banking session on your phone look like for you?
+   - Probe: Can you give me an example of a time that felt smooth and easy?
+   - Probe: What made it feel that way?
+
+5. Tell me about a time when your mobile banking experience let you down or didn't go as expected.
+   - Probe: What happened?
+   - Probe: How did you handle it?
+   - Probe: What would have made it better?
+
+6. How do you decide which banking tasks to handle on your phone versus another way — like online or in person?
+   - Probe: What factors go into that decision?
+   - Probe: Are there things you'd never do on mobile? What makes those feel different?
+
+7. How do you think about security when you're using your banking app?
+   - Probe: Has anything ever made you feel uncertain or uncomfortable?
+   - Probe: What gives you confidence that your account is safe?
+
+---
+
+CLOSING (10 min)
+
+8. If you could change one thing about your mobile banking experience, what would it be?
+
+9. Is there anything else about your experience with mobile banking you'd like to share that we haven't touched on?
+
+Thank you so much for your time and insights today. Your feedback is genuinely helpful.

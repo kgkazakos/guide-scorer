@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "guide-scorer"
+version = "0.1.0"
+description = "Score discussion guides across 8 research quality dimensions"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = ["ux-research", "discussion-guide", "qualitative", "nlp", "cpr"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "click>=8.1",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+llm = [
+    "dspy-ai>=2.4",
+    "openai>=1.0",
+    "anthropic>=0.25",
+    "google-generativeai>=0.7",
+]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.4",
+]
+
+[project.scripts]
+guide-scorer = "guide_scorer.cli:main"
+
+[project.urls]
+Repository = "https://github.com/kgkazakos/guide-scorer"
+"CPR Ecosystem" = "https://github.com/kgkazakos"
+
+[tool.setuptools.packages.find]
+include = ["guide_scorer*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]
