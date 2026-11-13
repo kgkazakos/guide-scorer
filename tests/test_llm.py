@@ -84,7 +84,7 @@ class TestConfigureDspy:
 
     def test_configures_gemini_model(self):
         from guide_scorer.llm import _MODELS
-        assert _MODELS[LLMBackend.GEMINI] == "gemini/gemini-2.0-flash"
+        assert _MODELS[LLMBackend.GEMINI] == "gemini/gemini-3.6-flash"
 
     def test_all_backends_have_model(self):
         from guide_scorer.llm import _MODELS

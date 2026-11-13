@@ -25,7 +25,7 @@ log = logging.getLogger(__name__)
 _MODELS: dict[str, str] = {
     LLMBackend.OPENAI: "openai/gpt-4o-mini",
     LLMBackend.ANTHROPIC: "anthropic/claude-haiku-4-5-20251001",
-    LLMBackend.GEMINI: "gemini/gemini-2.0-flash",
+    LLMBackend.GEMINI: "gemini/gemini-3.6-flash",
 }
 
 _ENV_KEYS: dict[str, str] = {

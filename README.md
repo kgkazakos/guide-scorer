@@ -126,7 +126,7 @@ for dim in result.dimensions:
 |---------|------|---------|-------|
 | Anthropic | `--llm-backend anthropic` | `ANTHROPIC_API_KEY` | `claude-haiku-4-5-20251001` |
 | OpenAI | `--llm-backend openai` | `OPENAI_API_KEY` | `gpt-4o-mini` |
-| Gemini | `--llm-backend gemini` | `GOOGLE_API_KEY` | `gemini-3.1-pro-preview` |
+| Gemini | `--llm-backend gemini` | `GOOGLE_API_KEY` | `gemini-3.6-flash` |
 
 LLM backends are entirely optional. The rule-based core works with zero API calls. Use `--llm-backend` only when you want per-dimension expert rationale and an overall narrative.
 
